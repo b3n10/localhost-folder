@@ -32,7 +32,10 @@
 			</div>
 		</div>
 		<script type="text/javascript">
-		window.onload = function() { get_id('btn-change-number').onclick = function () { change_number() }; };
+		window.onload = function() {
+      get_id('btn-change-number').onclick = function () { change_number() };
+      get_id('div-show-number').onclick = function () { change_number() };      
+    };
 
 		var get_id = function(arg) { return (arg) ? document.getElementById(arg) : null; };
 		var start_number = 0;
@@ -49,4 +52,3 @@
 		</script>
 	</body>
 </html>
-
