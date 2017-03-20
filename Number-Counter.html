@@ -13,6 +13,10 @@
 			margin: 0 auto;
 			width: 480px;
 		}
+		span {
+			font-size: 50px;
+			font-weight: bold;
+		}
 		#div-show-number {
 			font-size: 300px;
 			height: 400px;
@@ -25,7 +29,7 @@
 	</head>
 	<body>
 		<div id="div-main">
-			<h1>Count the Number</h1>
+			<span>Count the Number</span>
 			<div id="div-show-number">?</div>
 			<div>
 				<button id="btn-change-number">Count Now</button>
@@ -35,7 +39,6 @@
 	window.onload = function() { get_id('btn-change-number').onclick = function () { change_number() }; };
 
 	var get_id = function(arg) { return (arg) ? document.getElementById(arg) : null; };
-  var num_array = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty'];
 	var start_number = 0;
 
 	function change_number() {
@@ -46,6 +49,7 @@
 		}
 	}
 
+  var num_array = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen', 'Eighteen', 'Nineteen', 'Twenty', 'Twenty-One', 'Twenty-Two', 'Twenty-Three', 'Twenty-Four', 'Twenty-Five', 'Twenty-Six', 'Twenty-Seven', 'Twenty-Eight', 'Twenty-Nine', 'Thirty', 'Thirty-One', 'Thirty-Two', 'Thirty-Three', 'Thirty-Four', 'Thirty-Five', 'Thirty-Six', 'Thirty-Seven', 'Thirty-Eight', 'Thirty-Nine', 'Fourty'];
 	</script>
 	</body>
 </html>
