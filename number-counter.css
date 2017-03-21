@@ -10,6 +10,6 @@ button {
 	font-weight: bold;
 	width: 100%;
 }
-#div-show-number {
+#div-show-number, #div-show-number-random {
 	font-size: 250px;
 }
