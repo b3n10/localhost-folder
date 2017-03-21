@@ -7,7 +7,7 @@ window.onload =	function() {
 		on_click(elem1, elem2, true);
 	} else {
 		on_click(elem3, elem4, false);
-		var start_number = Math.floor( (Math.random() * (num_array.first_row.length - 1) + 0) );
+		start_number = Math.floor( (Math.random() * (num_array.first_row.length - 1) + 0) );
 	}
 };
 
