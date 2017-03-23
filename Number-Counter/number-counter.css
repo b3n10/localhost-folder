@@ -1,0 +1,15 @@
+* {
+	text-align: center;
+}
+#div-main {
+	margin: 0 auto;
+	max-width: 480px;
+}
+button {
+	font-size: 40px;
+	font-weight: bold;
+	width: 100%;
+}
+#div-show-number, #div-show-number-random {
+	font-size: 250px;
+}
