@@ -1,2 +1,2 @@
-# My Project Repository
+## My Project Repository
 This is for my web dev projects
