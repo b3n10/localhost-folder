@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #e2e2e2;
+}
+
+/* global */
+.div-container {
+	width: 650px;
+	margin: auto;
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+.div-row {
+	padding: 2px;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+	outline: none;
+	border: 1px solid #a8a8a8;
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+	border-radius: 2px;
+}
+
+ul li label {
+	cursor: pointer;
+}
+
+button {
+	border-radius: 2px;
+	border: 0;
+	background: #2d6bce;
+	color: #ffffff;    
+}
+
+button:hover {
+	cursor: pointer;
+	color: #000000;
+	background: #ffffff;
+	font-weight: bold;
+}
+
+#div-one, #div-two {
+	width: 48%;
+	height: 285px;
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	padding: 5px;
+}
+
+#div-one {
+	float: left;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#div-two {
+	float: right;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#div-one label {
+	display: inline-block;
+	width: 35%;
+}
+
+input[type="text"], input[type="email"], select {
+	width: 60%;
+	padding: 3px;
+}
+
+#div-one ul {
+	margin: 0;
+	padding: 0;  
+}
+
+#div-one ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#div-one ul li label {
+	width: 40%;
+}
+
+#div-two label {
+	display: inline-block;
+	width: 35%;
+}
+
+#div-two textarea {
+	width: 96%;
+	height: 60px;
+	padding: 3px;
+}
+
+#div-two .label-textarea {
+	width: 100%;
+}
+
+footer button {
+	padding: 6px;
+	width: 30%;
+	margin: 5px 9.5%;
+	border: 0;
+	background: #2d6bce;
+	color: #ffffff;
+}
+
+#div-preview {
+	display: none;
+	background: #e2e2e2;
+	border: 1px solid white;
+	border-radius: 3px;
+	position: absolute;
+	width: 329px;
+	height: 328px;
+	top: 180px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#div-preview .div-row {
+	width: 100%;
+	height: 80%;
+}
+
+#textarea-preview {
+	margin: 10px;
+	width: 92%;
+	height: 100%;
+}
+
+#div-preview button {
+	width: 31%;
+	padding: 5px 0px;
+	margin: 19px 2px;
+}
+
+@media(max-width: 630px) {
+	.div-container { width: 330px; }
+	#div-one,
+	#div-two {
+		float: none;
+		width: 99%;
+	}
+	#div-one { border-radius: 5px 5px 0px 0px; }
+	#div-two { border-radius: 0px 0px 5px 5px; }
+	footer button {
+		width: 40%;
+		margin: 5px 4.5%;
+	}
+	#div-preview { top: 300px; }
+}

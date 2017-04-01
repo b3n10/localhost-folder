@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Call Logger - trial">
+		<title>Call Logger</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<div class="div-container">
+				<h1></h1>
+			</div>
+		</header>
+		<section>
+			<div class="div-container">
+				<div id="div-one">
+					<div class="div-row">
+						<label>Name:</label>
+						<input type="text" id="input-name">
+					</div>
+					<div class="div-row">
+						<label>Phone Number:</label>
+						<input type="text" id="input-phonenumber">
+					</div>
+					<div class="div-row">
+						<label>Alternate Phone:</label>
+						<input type="text" id="input-alternatephone">
+					</div>
+					<div class="div-row">
+						<label>E-mail Address:</label>
+						<input type="email" id="input-emailaddress">
+					</div>
+					<div class="div-row">
+						<label>Case Number:</label>
+						<input type="text" id="input-casenumber">
+					</div>
+					<div class="div-row">
+						<label>System Type:</label>
+						<input type="text" id="input-systemtype">
+					</div>
+					<div class="div-row">
+						<hr>
+						<label>Call Stamps:</label>
+						<ul>
+							<li>
+								<input type="checkbox" id="checkbox-outboundcall">
+								<label for="checkbox-outboundcall" title="Outbound Call to customer">Outbound Call</label>
+							</li>
+							<li>                
+								<input type="checkbox" id="checkbox-verifiedauthorization">
+								<label for="checkbox-verifiedauthorization" title="Customer Properly Authenticated">Verified Authorization</label>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<input type="checkbox" id="checkbox-verifiedaddress">
+								<label for="checkbox-verifiedaddress" title="Verified Service Address">Verified Address</label>
+							</li>
+							<li>
+								<input type="checkbox" id="checkbox-servicedeferral">
+								<label for="checkbox-servicedeferral" title="Customer requested service to be deferred">Service Deferral</label>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<input type="checkbox" id="checkbox-turnaroundtime">
+								<label for="checkbox-turnaroundtime" title="Set expectation about service timeframe">Turn Around Time</label>
+							</li>
+							<li>
+								<input type="checkbox" id="checkbox-nootherissues">
+								<label for="checkbox-nootherissues" title="Customer confirmed No Other Issues">No Other Issues</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="div-two">
+					<div class="div-row">
+						<label>Issue:</label>
+						<input type="text" id="input-issue">
+					</div>
+					<div class="div-row">
+						<label class="label-textarea">Detailed Comments:</label>
+					</div>
+					<div class="div-row">
+						<textarea id="textarea-comments"></textarea>
+					</div>
+					<div class="div-row">
+						<label class="label-textarea">Resolution:</label>
+					</div>
+					<div class="div-row">
+						<textarea id="textarea-resolution"></textarea>
+					</div>
+					<div class="div-row">
+						<label>Call Duration:</label>
+						<input type="text" id="input-callduration">
+					</div>
+					<div class="div-row">
+						<label>Approval:</label>
+						<select id="select-approval">
+							<option></option>
+							<option>Senior Representative</option>
+							<option>Supervisor</option>
+							<option>Team Lead</option>
+							<option>Account Manager</option>
+							<option>Operations Manager</option>
+						</select>
+					</div>
+				</div>      
+			</div>
+		</section>
+		<footer>
+			<div class="div-container">
+				<div class="div-row">
+					<button type="button" id="button-clearall">Clear All</button>
+					<button type="button" id="button-preview">Preview Log</button>
+				</div>
+			</div>
+		</footer>
+		<div id="div-preview">
+			<div class="div-row">
+				<textarea id="textarea-preview"></textarea>
+			</div>
+			<div class="div-row">
+				<button type="button" id="button-closeclear">Close &amp; Clear</button>
+				<button type="button" id="button-close">Close</button>
+				<button type="button" id="button-copy">Copy Log</button>        
+			</div>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
