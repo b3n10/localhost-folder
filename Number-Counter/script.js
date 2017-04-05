@@ -1,10 +1,11 @@
 window.onload = function() {
-	var x = 0;
+	var x = 1;
 
 	/* shorthand document.getElementById(arg) */
 	var get_id = function(arg) {
 		return (arg) ? document.getElementById(arg) : null;
 	};
+
 	/* 1-100 and corresponding words */
 	var store_num_array = [];
 	var num_array = {
@@ -23,13 +24,18 @@ window.onload = function() {
 	function change_number(arg) {
 		var clicked = true;
 
+		// need to loop if random number repeats to get a different number
 		while (clicked === true) {
-			var random_number = Math.floor((Math.random() * (num_array.first_row.length + 1) + 0));
+			var random_number = Math.floor((Math.random() * (num_array.first_row.length) + 0));
 
 			if (store_num_array.indexOf(random_number) < 0) {
 				get_id('p-number').textContent = num_array.first_row[random_number];
 				get_id('p-word').textContent = num_array.second_row[random_number];
 				store_num_array.push(random_number);
+				/* need to log on console to see possible bugs */
+				console.log('click number ' +  x + ' for random # ' + random_number);
+				x++;
+				console.log(store_num_array);
 				clicked = false;
 			} else if (store_num_array.length == num_array.first_row.length) {
 				get_id('div-container').style.display = 'none';
