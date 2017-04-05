@@ -1,0 +1,60 @@
+/*
+project inspiration
+https://s-media-cache-ak0.pinimg.com/originals/79/d9/3e/79d93e6e3a068f7f207b42366162bf3b.jpg
+ */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Short Stack', cursive;
+}
+
+.div-container {
+	background: #36d83b;
+	margin: 0 auto;
+	width: 350px;
+	text-align: center;
+	border: 3px solid #000000;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+#div-sub-container {
+	background: #ffffff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+}
+
+div h1 {
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div p {
+	cursor: pointer;
+}
+
+div #p-number {
+	font-size: 160px;
+	font-weight: bold;
+	color: #6ab8fc;
+}
+
+div #p-word {
+	width: 99%;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: dotted;
+	border-width: 1px;
+	color: #6ab8fc;
+}
+
+#p-vgood {
+	display: none;
+	font-size: 90px;
+	font-weight: bold;
+	text-align: center;
+	color: #6ab8fc;
+}
