@@ -18,13 +18,17 @@ body {
 }
 
 header {
-	border-bottom: 1px solid #7fa6ff;
+	border-bottom: 3px solid black;
 	background: #002270;
 	color: #ffffff;/*#7fa6ff;*/
 }
 
 header h1 {
 	float: left;
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 header nav {
@@ -37,7 +41,7 @@ header nav {
 
 header nav ul li {
 	float: left;
-	display: inline;
+	list-style: none;
 }
 
 header nav ul li a {
@@ -47,16 +51,24 @@ header nav ul li a {
 	padding: 10px;
 }
 
-header nav ul li a:hover {
-	color: #ffffff;
+header nav ul li a:hover  {
+	background: #ffffff;
+	color: #000000;
+	border-radius: 2px;
 }
 
+article h2 {
+	color: #000000;
+	text-align: center;
+}
 article h3 {
-	color: #444444;
-	text-decoration: underline;
+	border-bottom: 3px dotted #ADC6FF;
+	width: 150px;
+	text-align: center;
+	padding: 5px;
 }
 
-article section p.section-img {
+article section .section-img {
 	text-align: center;
 	font-size: 10px;
 	padding: 0;
@@ -68,13 +80,15 @@ article section img {
 	border-color: #002270;
 	border-radius: 3px;
 	width: 500px;
-	height: 100%;
+	height: 350px;
 }
 
-article section p.section-p {
+article section .section-p {
 	background: #ADC6FF;
 	border-left: 5px solid #002c91;
 	padding: 7px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 
 footer {
