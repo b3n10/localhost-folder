@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: #ffffff;
+	text-align: center;
+	border-bottom: 1px solid #cccccc;
+	padding: 2%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+header nav ul li {
+	display: inline;
+	padding: 7%;
+	list-style: none;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+hr {
+	border-top: 1px solid #cccccc;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 80px;
+}
+
+hr:last-of-type {
+	margin-bottom: 150px;
+}
+
+section > * {
+	padding-bottom: 5px;
+}
+
+section h2, section h3 {
+	padding-bottom: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	padding-top: 100px;
+}
+
+footer {
+
+}
