@@ -24,7 +24,8 @@ https://s-media-cache-ak0.pinimg.com/originals/79/d9/3e/79d93e6e3a068f7f207b4236
 	border-top-right-radius: 7px;
 }
 
-div h1 {
+div span {
+	font-size: 30px;
 	color: #ffffff;
 	padding-top: 10px;
 	padding-bottom: 10px;
