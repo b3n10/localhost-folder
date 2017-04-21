@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.div-menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 5%;
+}
+
+.div-menu ul li {
+	list-style: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}

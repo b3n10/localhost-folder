@@ -2,60 +2,66 @@
 project inspiration
 https://s-media-cache-ak0.pinimg.com/originals/79/d9/3e/79d93e6e3a068f7f207b42366162bf3b.jpg
  */
+
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Short Stack', cursive;
+	font-family: cursive;
 }
 
-.div-container {
-	background: #36d83b;
-	margin: 0 auto;
-	width: 350px;
+.div-page {
+	margin: 20px auto;
+	max-width: 300px;
+}
+
+.div-menu {
 	text-align: center;
-	border: 3px solid #000000;
-	border-radius: 4px;
-	margin-top: 20px;
+	font-size: 22px;
+	padding: 3%;
+	background: #27484c;
+	color: #fff;
+	border-radius: 5px;
+	display: none;/*debugging*/
 }
 
-#div-sub-container {
+.div-menu div {
+	padding: 5px 0;
+}
+
+select, button {
+	width: 40%;
+	font-size: 15px;
+	border-radius: 3px;
+	border: none;
+	padding: 2%;
+}
+
+.div-main {
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px;
+	background: #4169e1;
+	color: #fff;
+	width: 100%;
+	display: none;/*debugging*/
+}
+
+.div-main p {
+	padding: 10px 0;
+}
+
+.div-number {
+	font-size: 80px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-left: 1px dashed #4169e1;
+	border-right: 1px dashed #4169e1;
 	background: #ffffff;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
+	color: #000;
 }
 
-div span {
-	font-size: 30px;
-	color: #ffffff;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-div p {
-	cursor: pointer;
-}
-
-div #p-number {
-	font-size: 160px;
-	font-weight: bold;
-	color: #6ab8fc;
-}
-
-div #p-word {
-	width: 99%;
-	font-size: 30px;
-	font-weight: bold;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-top: dotted;
-	border-width: 1px;
-	color: #6ab8fc;
-}
-
-#p-vgood {
-	display: none;
-	font-size: 90px;
-	font-weight: bold;
-	text-align: center;
-	color: #6ab8fc;
+.div-footer {
+	background: #00bfff;
+	border-radius: inherit;
 }
