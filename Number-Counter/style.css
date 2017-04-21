@@ -21,7 +21,6 @@ https://s-media-cache-ak0.pinimg.com/originals/79/d9/3e/79d93e6e3a068f7f207b4236
 	background: #27484c;
 	color: #fff;
 	border-radius: 5px;
-	display: none;/*debugging*/
 }
 
 .div-menu div {
@@ -44,7 +43,6 @@ select, button {
 	background: #4169e1;
 	color: #fff;
 	width: 100%;
-	display: none;/*debugging*/
 }
 
 .div-main p {
@@ -65,3 +63,26 @@ select, button {
 	background: #00bfff;
 	border-radius: inherit;
 }
+
+.div-message {
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	background: #00ce1e;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#div-backtomenu, #div-restart {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	background: #aae2b2;
+}
+
+
+
