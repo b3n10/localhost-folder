@@ -2,7 +2,7 @@
 $title = 'Cookie';
 require_once 'head-tag.php';
 
-$expire_date = time() + (1); // 24hours from today
+:$expire_date = time() + (1); // 24hours from today
 date_default_timezone_set('Asia/Manila');
 
 if ( !isset($_COOKIE['last_login_time']) ) {
@@ -10,7 +10,6 @@ if ( !isset($_COOKIE['last_login_time']) ) {
 	setcookie( 'loginname', 'Ben Lleve', $expire_date, '', '', '', TRUE );
 	setcookie( 'last_login_time', $TIMELOG, $expire_date, '', '', '', TRUE );
 }
-
 ?>
 
 <p>
